@@ -1,0 +1,360 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+
+#container {
+  position: relative;
+
+  background: blue;
+}
+.content {
+  flex-direction: column;
+}
+#Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 112px;
+
+  background: #ffffff;
+  left: 1px;
+  top: -1px;
+  margin-bottom: 100px;
+}
+.header-logo {
+  width: 85.53px;
+  height: 84.34px;
+  background: url("../img/image_351.png");
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+
+  width: 970px;
+  height: 46px;
+}
+.header-menu-item {
+  width: 70px;
+  height: 24px;
+}
+.navbar-menu-item-text {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.button-menu {
+  width: 170px;
+  height: 46px;
+  background: #ed8338;
+  border-radius: 7px;
+  border: none;
+}
+.text-button-menu {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  text-align: center;
+  color: #ffffff;
+}
+#slider__ {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  left: 2px;
+  top: 135px;
+  justify-content: center;
+  align-items: center;
+  display: block;
+
+  margin: auto;
+  /* Background/Background 2 */
+  background: #fafbfc;
+}
+
+.Slider__left {
+}
+.Slider__img__left {
+  width: 735px;
+  height: 905px;
+
+  top: -263.34px;
+}
+.img__slider {
+  width: 118px;
+  height: 308px;
+}
+.Slider__content {
+  position: absolute;
+
+  top: 100px;
+  left: -154px;
+  background: blue;
+}
+.slider__main__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  position: absolute;
+  width: 670px;
+  height: 251px;
+  left: 336px;
+  top: 50px;
+}
+.slider__Headding__and__subheading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 670px;
+  height: 139px;
+}
+.slider__subheading {
+  width: 398px;
+  height: 32px;
+
+  /* SVN-Gilroy/Medium/Sub heading/Semibold */
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 150%;
+
+  /* identical to box height, or 32px */
+
+  /* Brand Color/Brand Color 2 */
+  color: #f5751d;
+}
+.slider__heading {
+  width: 670px;
+  height: 91px;
+
+  /* SVN-Gilroy/Heading Large/Bold */
+  font-family: "SVN-Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 120%;
+
+  /* or 91px */
+
+  /* Font/Heading */
+  color: #111111;
+}
+
+.slider__desc p {
+  width: 500px;
+  height: 96px;
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 150%;
+
+  color: #111111;
+}
+.slider__input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 486.44px;
+  height: 48px;
+
+  top: 300px;
+}
+.slider__input__item {
+  position: absolute;
+  width: 270.44px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 11px 2px rgba(200, 200, 200, 0.25);
+  border-radius: 7px 0px 0px 7px;
+  border: none;
+}
+.slider__input__item::placeholder {
+  position: absolute;
+  width: 163px;
+  height: 24px;
+  left: 21.9px;
+  top: 14px;
+
+  /* Medium/Paragraph/Regular */
+
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #989898;
+}
+.slider__input__button {
+  position: absolute;
+  width: 208px;
+  height: 48px;
+  left: 274px;
+  top: 0px;
+
+  /* Brand color */
+  background: #459a88;
+  box-shadow: 0px 2px 11px 2px rgba(200, 200, 200, 0.25);
+  border-radius: 0px 7px 7px 0px;
+  border: none;
+}
+
+.Slider__content__button {
+  width: 170px;
+  height: 27px;
+  left: 297.13px;
+  top: 12px;
+}
+.slider__icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 24px;
+  top: 12px;
+}
+.slider__text__button {
+  position: absolute;
+  width: 140px;
+  height: 24px;
+  left: 50px;
+  top: 12px;
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.Slider__right {
+  position: absolute;
+
+  height: 1261.42px;
+  left: 685.95px;
+  top: 632.76px;
+}
+.Slider__img__right {
+  position: absolute;
+  display: block;
+  width: auto;
+  height: auto;
+  left: 270px;
+  top: -630px;
+}
+.Slider__img__righ__2 {
+  position: absolute;
+
+  height: 179.97px;
+  left: 72px;
+  top: -447px;
+}
+.Slider__img__righ__2__item {
+  width: auto;
+  height: auto;
+  background: url("../img/pexels-raf-jabri-113585\ 1\(1\).png") no-repeat;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat scroll center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+/* .carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom:0 ;
+  right: 0;
+
+} */
+
+#services {
+  width: 100%;
+  height: 100vh;
+}
+.services-title {
+  position: absolute;
+  width: 1172px;
+  height: 182px;
+  left: 194px;
+  top: 948px;
+}
+.title {
+  width: 670px;
+  height: 91px;
+  font-family: "SVN-Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 120%;
+  color: #111111;
+}
+.flex {
+  display: flex;
+}
+
+.services-advand {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 8px;
+  left: 487px;
+}
+.advand {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  /* Brand Color/Brand Color 2 */
+
+  color: #f5751d;
+}
+.services-item-list { 
+}
