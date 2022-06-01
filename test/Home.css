@@ -1,0 +1,248 @@
+li{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+   
+}
+.siema{
+  height: 918px !important;
+}
+#Header {
+}
+#navbar {
+    margin: 0 auto;
+  width: 98%;
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 112px;
+}
+.navbar-logo {
+  width: 85.53px;
+  height: 84.34px;
+}
+.navbar-list {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20px;
+  gap: 30px;
+}
+.navbar-menu-item-text {
+  font-family: "SVN-Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.button-menu {
+  width: 170px;
+  height: 46px;
+  background: #ed8338;
+  border-radius: 7px;
+  border: none;
+}
+.text-button-menu {
+  font-family: "SVN-Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  text-align: center;
+  color: #ffffff;
+}
+#slider__{
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  height: 852px;
+}
+
+.bg-slider {
+    width: 124px;
+    height: 265px   ;
+    
+}
+.slide__show{
+  display: flex ;
+    width:100%;
+    height: 100px;
+    
+}
+.slider-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 670px;
+  padding: 93px;
+  margin: 0 !important;
+}
+.slider-content-header{
+  width: 420px;
+  height: 32px;
+  
+  /* SVN-Gilroy/Medium/Sub heading/Semibold */
+  
+  font-family: 'SVN-Gilroy',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 150%;
+  /* identical to box height, or 32px */
+  
+  
+  /* Brand Color/Brand Color 2 */
+  
+  color: #F5751D;
+}
+.slider-content-title{
+  width: 670px;
+  height: 91px;
+  font-family: 'SVN-Gilroy',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 120%;
+  color: #111111;
+  /* or 91px */
+  
+  
+  /* Font/Heading */
+  
+  color: #111111;
+}
+.slider-content-desc{
+  width: 500px;
+  height: 96px;
+  
+  /* SVN-Gilroy/Medium/Sub heading/Regular */
+  
+  font-family: 'SVN-Gilroy',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 150%;
+}
+.slider-content-input{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+width: 486.44px;
+height: 48px;
+
+
+}
+.slider-content-input input{
+  width: 270.44px;
+height: 48px;
+
+}
+.slider-button-input{
+  width: 208px;
+  
+height: 48px;
+background: #459A88;
+box-shadow: 0px 2px 11px 2px rgba(200, 200, 200, 0.25);
+border-radius: 0px 7px 7px 0px;}
+
+.slider-button-input img{
+  width: 18px ;
+  height: 18px;
+}
+.slider-button-input span{
+  font-family: 'SVN-Gilroy',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color:white;
+}
+
+.img-slide-show{
+  width: 46%;
+  height: 918px;
+  position: relative;
+  right: 2px;
+}
+.img-slide-show img:last-child{
+  position: relative;
+    top: -454px;
+}
+
+#Container{
+width: 100%;
+
+}
+#services{
+padding-left: 118px;
+
+}
+.services-tittle{
+  display:flex;
+
+}
+.services-title-item{
+
+width: 713px;
+height: 182px;
+
+
+/* SVN-Gilroy/Heading Large/Bold */
+
+font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 76px;
+line-height: 120%;
+/* or 91px */
+
+
+/* Font/Heading */
+
+color: #111111;
+
+}
+.services-list{
+  display: flex;
+  gap:36px;
+}
+.services-items{
+  width: 135px;
+  padding-left: 33px;
+  padding-top: 12px;
+  height: 126px;
+  background-color: #459A88;
+  border-radius: 10px; 
+}
+.services-icon{
+  border-radius:50% ;
+width: 60px;
+height: 60px;
+background: #F9F6F3;
+}
+.services-icon img{
+width: 23.8px;
+height: 18.25px;
+}
+.name-icon-service{
+
+}

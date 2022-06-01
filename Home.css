@@ -1265,7 +1265,7 @@ px
   gap: 10px;
 
   position: absolute;
-  width: 1920px;
+  /* width: 1920px; */
   height: 1184.24px;
   left: -3px;
   top: 7800px;
@@ -1409,7 +1409,199 @@ px
   padding-top: 11px;
   padding-left: 10px;
 }
+#footer{
+  position: absolute;
+  width: 1169px;
 
+
+  left: 0px;
+  top: 8491px;
+ 
+}
+.content-footer{
+  width:1169px;
+  height:462px;
+display: flex;
+padding: 90px;
+ padding-bottom:44.52px;
+ padding-left:375.5px;
+ padding-right:375.5px;
+ gap: 16px;
+
+}
+.address{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 368px;
+  
+}
+.address-title{
+  width: 328.72px;
+  height: 54px;
+  
+  /* SVN-Gilroy/Medium/Sub heading/Bold */
+  
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 130%;
+
+}
+.address-list{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  
+  width: 368px;
+  height: 222px;
+}
+.address-item{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 353px;
+
+}
+.address-item span{
+  width: 305.11px;
+height: 72px;
+
+/* Medium/Paragraph/Regular */
+
+font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+color: #181818;
+}
+.about{
+
+}
+  
+
+.footer-about-title{
+  width: 122px;
+height: 27px;
+
+/* SVN-Gilroy/Medium/Sub heading/Bold */
+
+font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 130%;
+/* or 27px */
+
+
+color: #181818;
+
+ 
+}.footer-about-list{
+padding-left: 0px !important;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 207px;
+height: 104px;
+
+
+}.footer-about-item{
+
+  width: 158px;
+  height: 24px;
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #181818;
+
+
+
+/* Medium/Paragraph/Regular */
+
+
+}
+.footer-about-item span {
+
+
+}
+.services{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  
+}
+.footer-services-title{  
+  width: 122px;
+  height: 27px;
+  
+  /* SVN-Gilroy/Medium/Sub heading/Bold */
+  
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 130%;
+  /* or 27px */
+  
+  
+  color: #181818;
+  
+
+}.footer-services-list{
+padding-left: 0px !important;
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 207px;
+height: 104px;
+
+}
+.footer-services-item{
+  width: 158px;
+  height: 24px;
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #181818;
+
+}
+.connect{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+width: 100%;
+height: 100%;
+gap: 26px;
+ background: url('img/Frame\ 33725.png')no-repeat;
+}
 @media only screen and (min-width: 1280px) {
   .slider-img {
     position: relative;
@@ -1428,7 +1620,9 @@ px
     top: 106px;
   }
 }
-
+@media  only screen and (min-width :1366px){
+  
+}
 @media screen and (min-width: 1920px) {
   #slider {
     width: 100%;
