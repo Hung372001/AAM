@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".owl-carousel").owlCarousel({
+  $(".hot-news-slider").owlCarousel({
     loop: false,
     autoplay: true,
     nav: true,
