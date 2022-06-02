@@ -213,10 +213,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 76px;
 line-height: 120%;
-/* or 91px */
 
-
-/* Font/Heading */
 
 color: #111111;
 
@@ -243,6 +240,8 @@ background: #F9F6F3;
 width: 23.8px;
 height: 18.25px;
 }
+.icon-eclip{  }
+
 .name-icon-service{
 
 }
