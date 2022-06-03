@@ -1,0 +1,213 @@
+li {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.siema {
+    height: 918px !important;
+}
+
+#Header {}
+
+#navbar {
+    margin: 0 auto;
+    width: 98%;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 112px;
+}
+
+.navbar-logo {
+    width: 85.53px;
+    height: 84.34px;
+}
+
+.navbar-list {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+    gap: 30px;
+}
+
+.navbar-menu-item-text {
+    font-family: "SVN-Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.navbar-menu-item-text-GT {
+    font-family: "SVN-Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #459A88;
+}
+
+.button-menu {
+    width: 170px;
+    height: 46px;
+    background: #ed8338;
+    border-radius: 7px;
+    border: none;
+}
+
+.text-button-menu {
+    font-family: "SVN-Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+    color: #ffffff;
+}
+
+
+#slider__ {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    height: 852px;
+}
+
+.bg-slider {
+    width: 124px;
+    height: 265px;
+}
+
+.slide__show {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.slider-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    
+}
+
+.slider-content-header {
+    width: 420px;
+    height: 32px;
+
+    /* SVN-Gilroy/Medium/Sub heading/Semibold */
+
+    font-family: "SVN-Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 150%;
+    /* identical to box height, or 32px */
+
+    /* Brand Color/Brand Color 2 */
+
+    color: #f5751d;
+}
+
+.slider-content-title {
+    width:630px;
+    height: 273px;
+    
+    /* SVN-Gilroy/Heading Large/Bold */
+    
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 120%;
+    /* or 91px */
+    
+    
+    color: #000000;
+    
+}
+
+.slider-content-desc {
+    width: 500px;
+    height: 96px;
+
+    /* SVN-Gilroy/Medium/Sub heading/Regular */
+
+    font-family: "SVN-Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 150%;
+}
+
+.slider-content-input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 486.44px;
+    height: 48px;
+}
+
+.slider-content-input input {
+    width: 270.44px;
+    height: 48px;
+}
+
+.slider-button-input {
+    width: 208px;
+
+    height: 48px;
+    background: #459a88;
+    box-shadow: 0px 2px 11px 2px rgba(200, 200, 200, 0.25);
+    border-radius: 0px 7px 7px 0px;
+}
+
+.slider-button-input img {
+    width: 18px;
+    height: 18px;
+}
+
+.slider-button-input span {
+    font-family: "SVN-Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: white;
+}
+
+.img-slide-show {
+    width: 46%;
+    height: 660px;
+    position: relative;
+    right: 2px;
+    background: #459A88;
+}
+.img-slide-show img {
+ /* width: 945px;
+ height: 975px; */
+}
